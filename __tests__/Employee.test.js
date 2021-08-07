@@ -1,10 +1,10 @@
 // import employee
 
-const { hasUncaughtExceptionCaptureCallback } = require("process");
+const { Employee} = require("../lib/Employee")
 
 describe ('Employee Class Test', () => {
     // test initialization
-    text('Employee initialization', () =>{
+    test('Employee initialization', () => {
         // arrange, act
         const employeeObj = new Employee();
 
